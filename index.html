@@ -2,22 +2,20 @@
 <html>
     <head>
         <title>Exercicio html_js</title>
-    Valor de A: <input id="num1" type="number"> <br />
-    Valor de B: <input id="num2" type="number"> <br />
+    Valor de A: <input id="num1" type="number"> <br/>
+    Valor de B: <input id="num2" type="number"> <br/>
     <button onclick="calcular()">Calcular</button>
 
-    <script type="text/javascript">
+    <script>
         function calcular(){
         var numero1 = parseFloat(document.getElementById("num1").value);
         var numero2 = parseFloat(document.getElementById("num2").value);
 
         if (numero1 > numero2)
-        alert("O Valor de A" + " é maior que " + "Valor de B");
+        alert("O Valor de A" + " é maior que " + "o valor de B.");
             else
         alert("Comando Inválido");
     }
 </script>
-
 </head>
 </html>
-
